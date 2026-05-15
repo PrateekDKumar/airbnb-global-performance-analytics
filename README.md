@@ -57,7 +57,7 @@ This project addresses these questions through a structured analytical pipeline 
 
 ## Methods
 
-1. **Data Ingestion** — Loaded `Listings.csv` (latin-1 encoded, 279K rows) and `Reviews.csv` (5.37M rows) using `pandas` with encoding handling and mixed-type resolution.
+1. **Data Ingestion** - Loaded `Listings.csv` (latin-1 encoded, 279K rows) and `Reviews.csv` (5.37M rows) using `pandas` with encoding handling and mixed-type resolution.
 
 2. **Data Cleaning**
    - Parsed `host_since` and review `date` columns to datetime
