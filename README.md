@@ -26,6 +26,8 @@ This project addresses these questions through a structured analytical pipeline 
 
 ## Dataset
 
+Dataset Link - https://mavenanalytics.io/data-playground/airbnb-listings-reviews
+
 | File | Description | Records |
 |---|---|---|
 | `Listings.csv` | Core listing metadata - host info, location, property type, room type, pricing, ratings | 279,712 rows × 33 columns |
