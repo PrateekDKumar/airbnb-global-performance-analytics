@@ -131,8 +131,6 @@ The Power BI dashboard consists of two interactive pages:
 - Ratings Heatmap : city × rating dimension table with conditional color formatting
 - Toggle slicer : switch between Overall Rating and Detailed Rating views
 
-Screenshots of the dashboard are included in the `/screenshots` directory.
-
 ## Results and Conclusion
 
 The analysis reveals that the global Airbnb market is highly concentrated in a few key cities, with Paris serving as the dominant market. Pricing does not follow intuitive room-size logic - hotel rooms outprice entire apartments, highlighting the platform's luxury segment. Guest satisfaction is broadly high (mean rating: 93.4/100) but varies meaningfully by city, with Mexico City leading and Hong Kong lagging across all dimensions. The Superhost program is unevenly adopted, suggesting an opportunity for platform-level incentivization in low-penetration markets. The COVID-19 impact is clearly visible - both in new listing volumes and review counts - confirming the platform's sensitivity to global travel restrictions.
