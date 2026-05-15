@@ -57,25 +57,12 @@ This project addresses these questions through a structured analytical pipeline 
 
 ## Methods
 
-1. **Data Ingestion** - Loaded `Listings.csv` (latin-1 encoded, 279K rows) and `Reviews.csv` (5.37M rows) using `pandas` with encoding handling and mixed-type resolution.
-
-2. **Data Cleaning**
-   - Parsed `host_since` and review `date` columns to datetime
-   - Handled nulls in rating columns (only rated listings used in scoring analysis)
-   - Standardized `host_is_superhost` boolean encoding (`t`/`f` → True/False)
-   - Removed outlier prices for distribution analysis
-
-3. **Feature Engineering**
-   - Derived `year` from `host_since` for cohort/trend analysis
-   - Computed Superhost percentage per city
-   - Aggregated review volume by year to plot lifecycle phases
-
-4. **Power BI Modeling**
+1. **Power BI Modeling**
    - Built a star-schema data model linking Listings and Reviews on `listing_id`
    - Authored DAX measures for: total listings, active hosts, Superhost %, avg price by room type, cumulative market share %, avg rating dimensions per city
    - Implemented toggle slicer for Overall Rating vs Detailed Rating drill-down
 
-5. **Dashboard Design**
+2. **Dashboard Design**
    - Page 1: KPI overview (totals for listings, cities, hosts, property types, reviews) + New Listings lifecycle area chart
    - Page 2: Market Share Pareto chart, Average Price by room type, Ratings heatmap table, city-level drill-down
 
